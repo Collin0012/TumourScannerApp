@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbar" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal">-->
+        <!--            -->
+        <!--            <ImageButton-->
+        <!--                android:id="@+id/gallery"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/ic_gallery_add"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:layout_height="200dp"/>-->
+
+        <!--            <ImageButton-->
+        <!--                android:id="@+id/camera"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/ic_camera_add"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:layout_height="200dp"/>-->
+        <!--        </LinearLayout>-->
+
+        <ImageView
+            android:id="@+id/dataset_image"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_margin="10dp"
+            android:background="#B475BDF6"
+            android:padding="60dp"
+            android:src="@drawable/ic_gallery_add" />
+
+        <Button
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="14dp"
+            android:text="Scan Now" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Results"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

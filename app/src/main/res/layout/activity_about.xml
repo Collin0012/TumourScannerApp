@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="This application is designed to diagnose skin cancer on patients which will be used by the doctor, this is because most of the hospitals cannot manage to buy machines which are used to detect skin cancer, hence this application is very easy to use. 2021 production."
+        android:padding="10dp"/>
+
+</LinearLayout>
